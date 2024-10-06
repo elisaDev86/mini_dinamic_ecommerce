@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <header>
+            <h1 id="titolo">My SmartShop</h1>
+        </header>
+        <!--tabella-->
+     <table>
+        <!--primo prodotto-->
+         <tr>
+            <td><h2>Dooge Phone</h2></td>
+            <td><img src="./asset/phone1.webp" alt="dooge_phone"></td>
+            <td><a href="https://www.amazon.it/DOOGEE-Smartphone-Indistruttibile-Ultra-thin-Cellulare/dp/B0D76MQTFQ/ref=sr_1_2_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=VNTD71HF1M55&dib=eyJ2IjoiMSJ9._zUEOuLHEqKKEKJ1wfZ9NJvFLP3dWMXE1T99UeLrOJP6qIN3JBK3i3u7-Z6PkMgJhBBG5rGYA1xhjBQfP55iKntLM5Q9OwHrqcqnrBn8zfwnY9kq2TPwAGOsw9KTxU2ol9MN1PT5GIpQ7TRcCvuY83jPKK9gumFUTCINj1hj4MvEJQJEUbuGvuWAg6TqQdg7tQqWscwt4NTanMQNTtyfo1_OYZM-aIywK776shLLLcQmlBGqpN1Cfq4q_eQgecL8foU6bqj93bLGCisA0g2rru8faeMBCp7VviyoNX1tDcc.aZdV_R9P8-HpRSdGhEX3CPrycHcKyg2kQgKRtQksGWY&dib_tag=se&keywords=DOOGEE+Blade10+Rugged+Smartphone+%282024%29%2C+Android+14+Telefono+Indistruttibile&qid=1728120034&sprefix=doogee+blade10+rugged+smartphone+2024+%2C+android+14+telefono+indistruttibile%2Caps%2C205&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Telefono indistruttibile</a>
+                <input type="text" class="commento"   placeholder="write a comment...">
+                <input type="button" class="invio" value="Send">
+            </td>
+            <td><button class="prezzi" onclick="cambiaColorePrezzo()">&#8364; 129.99</button></td>
+        </tr>
+        <!--secondo prodotto-->
+         <tr>
+            <td><h2>Dooge Smartphone</h2></td>
+            <td><img src="./asset/phone2.webp" alt="rugged_phone"></td>
+            <td><a href="https://www.amazon.it/DOOGEE-Punk-Smartphone-Indistruttibile-Cellulare/dp/B0D7BNQS2T/ref=sr_1_4_sspa?crid=9JCJKIFP5YDJ&dib=eyJ2IjoiMSJ9.hIzgAeFLiCFNGaStLW6ClxhIQedzS0ENETE2Nqfaea82_bS_vt_PJ3CV0pjCxSVkMTom0ee-ASFp-AhbZEDkWm6GazhfvGOdB0JO4hJzsYuxc1KdvHQ7l5fRRbfU3hhCwo8ll_cZ6kZ3WbLZ15fZpXuNtat24Zd16jQBCO2113ReUBFO-5VRC2iLWWSYKG4RIGcWKaY2iBZDgUEexmck6ZuU7EDzWkkppP-82SeU8og6jNfs03ANKWpG1R1r2jJfHd4pjdUbXw7-yS9Bw78AlA_yEfzAxj3GiqGuf4YzqI8.7N1StlTWnxn4buQWEPBT6FaZnKC_ViV8o1CMZDQcGu4&dib_tag=se&keywords=smartphone&qid=1728117493&sprefix=smar%2Caps%2C90&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Rugged Phone</a>
+                <input type="text" class="commento"   placeholder="write a comment...">
+                <input type="button" class="invio"  value="Send">
+            </td>
+            <td><button class="prezzi" onclick="cambiaColorePrezzo()">&#8364; 107.99</button></td>
+        </tr>
+        <!--terzo prodotto-->
+         <tr>
+            <td><h2>Blackview Phone</h2></td>
+            <td><img src="./asset/phone3.webp" alt="blackview"></td>
+            <td><a href="https://www.amazon.it/Blackview-Smartphone-Batteria-Telefono-Indistruttibile/dp/B0CHVNJGQ5/ref=sr_1_33_sspa?crid=9JCJKIFP5YDJ&dib=eyJ2IjoiMSJ9.hIzgAeFLiCFNGaStLW6ClxhIQedzS0ENETE2Nqfaea82_bS_vt_PJ3CV0pjCxSVkMTom0ee-ASFp-AhbZEDkWm6GazhfvGOdB0JO4hJzsYuxc1KdvHQ7l5fRRbfU3hhCwo8ll_cZ6kZ3WbLZ15fZpXuNtat24Zd16jQBCO2113ReUBFO-5VRC2iLWWSYKG4RIGcWKaY2iBZDgUEexmck6ZuU7EDzWkkppP-82SeU8og6jNfs03ANKWpG1R1r2jJfHd4pjdUbXw7-yS9Bw78AlA_yEfzAxj3GiqGuf4YzqI8.7N1StlTWnxn4buQWEPBT6FaZnKC_ViV8o1CMZDQcGu4&dib_tag=se&keywords=smartphone&qid=1728117493&sprefix=smar%2Caps%2C90&sr=8-33-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1">Smartphone resistente</a>
+                <input type="text" class="commento"  placeholder="write a comment...">
+                <input type="button" class="invio"  value="Send">
+            </td>
+            <td><button class="prezzi" onclick="cambiaColorePrezzo()">&#8364; 107.99</button></td>
+        </tr>
+        <!--quarto prodotto-->
+         <tr>
+            <td><h2>Cubot phone</h2></td>
+            <td><img src="./asset/phone4.webp" alt="cubot_phone"></td>
+            <td><a href=https://www.amazon.it/gp/aw/d/B0DCP4BDMM/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=139b388ddecaa153394bc221fc39ed2c&hsa_cr_id=0&qid=1728119905&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&ref_=sbx_be_s_sparkle_lsi4d_asin_0_img&pd_rd_w=gBzes&content-id=amzn1.sym.b580b30c-dd62-441e-ab95-5e749dbe7889%3Aamzn1.sym.b580b30c-dd62-441e-ab95-5e749dbe7889&pf_rd_p=b580b30c-dd62-441e-ab95-5e749dbe7889&pf_rd_r=PQ60JTWV9WBJH7DYDQK2&pd_rd_wg=CqeGh&pd_rd_r=a8555cc2-f640-4838-b346-1cfb525673ea"">Rugged model</a>
+                <input type="text" class="commento"   placeholder="write a comment...">
+                <input type="button" class="invio"  value="Send">
+            </td>
+            <td><button class="prezzi" onclick="cambiaColorePrezzo()">&#8364; 256.49</button></td>
+        </tr>
+        <!--quinto prodotto-->
+         <tr>
+            <td><h2>Dooge 14</h2></td>
+            <td><img src="./asset/phone5.webp" alt="dooge"></td>
+            <td><a href="https://www.amazon.it/DOOGEE-Blade-10-Smartphone-Indistruttibile/dp/B0D81D9NXH/ref=sr_1_35_sspa?crid=9JCJKIFP5YDJ&dib=eyJ2IjoiMSJ9.hIzgAeFLiCFNGaStLW6ClxhIQedzS0ENETE2Nqfaea82_bS_vt_PJ3CV0pjCxSVkMTom0ee-ASFp-AhbZEDkWm6GazhfvGOdB0JO4hJzsYuxc1KdvHQ7l5fRRbfU3hhCwo8ll_cZ6kZ3WbLZ15fZpXuNtat24Zd16jQBCO2113ReUBFO-5VRC2iLWWSYKG4RIGcWKaY2iBZDgUEexmck6ZuU7EDzWkkppP-82SeU8og6jNfs03ANKWpG1R1r2jJfHd4pjdUbXw7-yS9Bw78AlA_yEfzAxj3GiqGuf4YzqI8.7N1StlTWnxn4buQWEPBT6FaZnKC_ViV8o1CMZDQcGu4&dib_tag=se&keywords=smartphone&qid=1728117493&sprefix=smar%2Caps%2C90&sr=8-35-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1">Super phone</a>
+                <input type="text" class="commento" placeholder="write a comment...">
+                <input type="button" class="invio"  value="Send">
+            </td>
+            <td><button class="prezzi" onclick="cambiaColorePrezzo()">&#8364; 129.99</button></td>
+        </tr>
+     </table>
+    
+    
+ <footer>
+    <p id="address"></p>
+ </footer>
+</body>
+<script src="./s3p2-scaricabile.js"></script>
+</html>
