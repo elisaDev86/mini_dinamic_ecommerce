@@ -33,11 +33,6 @@ function cambiaColorePagina(){
     document.querySelector("body").style.backgroundColor = colori[coloriRandom] ;
 }
 
-window.onload = function(){
-    
-    setInterval(cambiaColorePagina, 3000); 
-};
-
 // ESERCIZIO 9: Scrivi una funzione per cambiare l'indirizzo presente nel futuro in un altro, fittizio
 
 function cambiaIndirizzo(){
@@ -47,7 +42,7 @@ function cambiaIndirizzo(){
    nuovoIndirizzo.innerHTML = "&copy; " + multiAddress[randomAddress];
 }
 window.onload = function() {
-    
+    setInterval(cambiaColorePagina, 3000); 
     setInterval(cambiaIndirizzo, 5000);
 };
 
